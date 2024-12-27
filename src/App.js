@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import './css/layout.css'
+import './css/base.css'
 import Header from "./Header";
 import Footer from "./Footer";
 
@@ -34,9 +35,11 @@ switch (window.location.pathname) {
 function App() {
     return (
         <MathJaxContext>
-            <Navbar/>
-            {currentPage}
-            <Footer></Footer>
+            <div className={"container"}>
+                <Navbar/>
+                {currentPage}
+                <Footer></Footer>
+            </div>
         </MathJaxContext>
     );
 }
