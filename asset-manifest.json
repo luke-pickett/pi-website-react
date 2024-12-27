@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/pi-website-react/static/css/main.b4cc4eb2.css",
-    "main.js": "/pi-website-react/static/js/main.59ab8c2c.js",
+    "main.js": "/pi-website-react/static/js/main.f070f993.js",
     "static/media/logo.svg": "/pi-website-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/pi-website-react/index.html",
     "main.b4cc4eb2.css.map": "/pi-website-react/static/css/main.b4cc4eb2.css.map",
-    "main.59ab8c2c.js.map": "/pi-website-react/static/js/main.59ab8c2c.js.map"
+    "main.f070f993.js.map": "/pi-website-react/static/js/main.f070f993.js.map"
   },
   "entrypoints": [
     "static/css/main.b4cc4eb2.css",
-    "static/js/main.59ab8c2c.js"
+    "static/js/main.f070f993.js"
   ]
 }
