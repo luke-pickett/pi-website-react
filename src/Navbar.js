@@ -1,10 +1,12 @@
+import { Link } from 'react-router-dom'
+
 export default function Navbar() {
     return(
         <nav className={"nav"}>
-            <a href={"home"} className={"nav-site-title"}>Approximating &pi;</a>
+            <Link to={"/"} className={"nav-site-title"}>Approximating &pi;</Link>
             <ul>
                 <li>
-                    <a href={"archimedes"} className={"nav-sub-link"}>Archimedes' Approximation</a>
+                    <Link to={"/archimedes"}>Archimedes' Approximation</Link>
                 </li>
                 <li>
                     <a href={"taylor"} className={"nav-sub-link"}>Taylor Series</a>
