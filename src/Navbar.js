@@ -6,10 +6,10 @@ export default function Navbar() {
             <Link to={"/"} className={"nav-site-title"}>Approximating &pi;</Link>
             <ul>
                 <li>
-                    <Link to={"/archimedes"}>Archimedes' Approximation</Link>
+                    <Link to={"/archimedes"} className={"nav-sub-link"}>Archimedes' Approximation</Link>
                 </li>
                 <li>
-                    <a href={"taylor"} className={"nav-sub-link"}>Taylor Series</a>
+                    <Link to={"/taylor"} className={"nav-sub-link"}>Taylor Series</Link>
                 </li>
             </ul>
         </nav>
