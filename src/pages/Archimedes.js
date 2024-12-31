@@ -1,7 +1,11 @@
+import GeogebraComponent from "../GeogebraComponent/GeogebraComponent";
+
 export default function Archimedes() {
     return(
         <main>
-            <p>Archimedes</p>
+            <article role={"main"}>
+                <GeogebraComponent srcLink={"https://www.geogebra.org/calculator/jhr8epvb?embed"}/>
+            </article>
         </main>
     )
 }

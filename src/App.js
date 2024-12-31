@@ -5,7 +5,7 @@ import './css/base.css'
 import Header from "./Header";
 import Footer from "./Footer";
 
-import {BrowserRouter as Router, Routes} from 'react-router-dom'
+import {BrowserRouter as Router, Navigate, Routes} from 'react-router-dom'
 import { Switch, Route, withRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import {MathJaxContext} from "better-react-mathjax";
@@ -45,6 +45,8 @@ function App() {
                 <div className={"container"}>
                     <Navbar/>
                     <Routes>
+                        <Route path={'*'} element={<Navigate to={"/"} replace={true}/>}/>
+
                         <Route path={'/'} element={<Home/>}/>
                         <Route path={'/archimedes'} element={<Archimedes/>}/>
                         <Route path={'/taylor'} element={<Taylor/>}/>
