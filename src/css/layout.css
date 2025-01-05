@@ -72,9 +72,10 @@ footer {
 }
 
 footer .top-footer-container {
-    margin-top: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 footer .bottom-footer-container {
